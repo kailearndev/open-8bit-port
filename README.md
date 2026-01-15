@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Port Pixel
 
-## Getting Started
+A personal portfolio built with a retro pixel art aesthetic.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Pixel Art Design:** 8bit shadcn-style graphics and animations.
+- **Responsive Layout:** Looks great on desktop and mobile retro consoles.
+- **Project Showcase:** highlighting coding projects and artwork.
+- **About Me:** A section introducing who I am and what I do.
+- **Contact:** Easy ways to get in touch.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-
+- **JavaScript** (Vanilla / Framework of choice)
+- **Assets:** Aseprite / Photoshop for pixel art
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation
 
-## Learn More
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/port-pixel.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd port-pixel
+    ```
+3.  Open `index.html` in your browser to view the local build.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Asset Attribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Specific credits for pixel art assets or fonts used in this project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- _Font Name_ by [Author]
+- _Icon Set_ by [Author]
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
