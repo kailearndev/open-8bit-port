@@ -1,7 +1,6 @@
 
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform, useInView } from 'framer-motion';
-import { ArrowRight, Check } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 import { WordsPullUp } from './AnimatedText';
 import { cvData } from '../data/cv';
 import cv from '../data/cv.pdf';

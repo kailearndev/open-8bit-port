@@ -22,13 +22,13 @@ const Features = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-2 lg:h-120">
                     <FeatureCard index={0} className="lg:col-span-1">
                         <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
-                            <source src={features.canvasVideoSrc} type="video/mp4" />
+                            <source src={features.canvasVideoSrc } type="video/mp4" />
                         </video>
                         <div className="absolute bottom-6 left-6 z-10 text-[#E1E0CC] font-medium">{features.canvasLabel}</div>
                     </FeatureCard>
 
                     {features.cards.map((card, index) => (
-                        <FeatureCard key={card.num} index={index + 1} title={card.title} num={card.num} icon={card.icon} href={card.href}>
+                        <FeatureCard key={card.num} index={index + 1} title={card.title} num={card.num} icon={card.icon} href={card.href || "#"}>
                             <FeatureList items={card.items} />
                         </FeatureCard>
                     ))}

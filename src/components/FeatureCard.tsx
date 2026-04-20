@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useRef } from "react";
 
-const FeatureCard = ({ children, index, title, num, icon, href, className = "" }: any) => {
+const FeatureCard = ({ children, index, title, num, icon, href, className = "" }: { children: React.ReactNode; index: number; title?: string; num?: string; icon?: string; href?: string; className?: string }) => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 
